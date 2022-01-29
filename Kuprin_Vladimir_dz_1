@@ -4,6 +4,6 @@ def convert_time(duration) -> str:
     return
 
 
-duration = 400153
+duration = 4001531
 result = convert_time(duration)
 print(result)
