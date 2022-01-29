@@ -1,0 +1,9 @@
+duration = int(input())
+def convert_time(duration) -> str:
+
+    return
+
+
+duration = 400153
+result = convert_time(duration)
+print(result)
