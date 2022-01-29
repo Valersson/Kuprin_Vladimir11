@@ -1,9 +1,0 @@
-duration = int(input())
-def convert_time(duration) -> str:
-
-    return
-
-
-duration = 4001531
-result = convert_time(duration)
-print(result)
