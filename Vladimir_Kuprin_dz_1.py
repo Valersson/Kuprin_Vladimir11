@@ -5,11 +5,11 @@ minutes = 0
 hours = 0
 days = 0
 for i in range (1; duration):
-    if duration / 60:
+    if duration / 60 >= 1:
         minutes += 1
-    elif duration / 360:
+    if duration / 360 >= 1:
         hours += 1
-    elif duration / 8640:
+    if duration / 8640 >= 1:
         days += 1
 print(minutes, hours, days)
 
